@@ -1,0 +1,44 @@
+.home-container {
+    background: #FFD3AC;
+    margin: 20px;
+    width: inherit;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.home-container .logout {
+    width: 80px;
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.home-container .logout:hover {
+    background: red;
+}
+
+.home-container .table {
+    width: 90%;
+    align-self: center;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.home-container .tableHeader {
+    color: black;
+    font-weight: 500;
+    font-size: medium;
+}

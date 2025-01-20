@@ -1,0 +1,74 @@
+.login-container {
+    background: #FFD3AC;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #212121;
+    text-align: center;
+    width: 25%;
+    margin: 20px;
+}
+
+.login-container .label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login-container .field {
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login-container .enabledButton {
+    padding: 10px;
+    width: 80px;
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login-container .enabledButton:hover {
+    background: #007bff;
+}
+
+.login-container .disabledButton {
+    padding: 10px;
+    width: 80px;
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login-container .disabledButton:hover {
+    background: red;
+}
+
+.login-container .error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.login-container .rememberMeContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.login-container .rememberMeWord {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.login-container .checkbox {
+    cursor: pointer;
+}
