@@ -13,7 +13,7 @@ export default function Home(){
 
     const getClasses = async () =>{
         try {
-            const response = await fetch('http://localhost:5000/classes', {
+            const response = await fetch('https://fitness-booking-backend-production.up.railway.app/classes', {
               method: 'GET',
               headers: {
                 'Content-Type': 'application/json',

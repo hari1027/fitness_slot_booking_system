@@ -22,7 +22,7 @@ const ActivityCard = ({ name, slotsAvailable, waitlistNumber, icon, bookedIds, w
         userId: userId,
         classId : name === "Yoga" ? 1 : name === "Gym" ? 2 : 3
     }
-    const response = await fetch('http://localhost:5000/book', {
+    const response = await fetch('https://fitness-booking-backend-production.up.railway.app/book', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -41,7 +41,7 @@ const ActivityCard = ({ name, slotsAvailable, waitlistNumber, icon, bookedIds, w
         userId: userId,
         classId : name === "Yoga" ? 1 : name === "Gym" ? 2 : 3
     }
-    const response = await fetch('http://localhost:5000/cancel', {
+    const response = await fetch('https://fitness-booking-backend-production.up.railway.app/cancel', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
